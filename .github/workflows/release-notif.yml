@@ -1,7 +1,11 @@
 name: Release Notifications
 on:
-  release:
-    types: [published]
+  pull_request: {}
+  push:
+    branches: 
+    - master
+    - main
+  workflow_dispatch: {}
 
 jobs:
 
