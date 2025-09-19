@@ -3,8 +3,8 @@
   "extends": [
     ":configMigration",
     "customManagers:makefileVersions",
-    "Kong/public-shared-renovate:backend",
-    "Kong/public-shared-renovate:security-extended(area/security,team:kuma-security-managers)"
+    "pankajkongorg/public-shared-renovate:backend",
+    "pankajkongorg/public-shared-renovate:security-extended(area/security,team:kuma-security-managers)"
   ],
   "enabledManagers": [
     "custom.regex",
@@ -63,7 +63,7 @@
         " unnecessary CI load and changelog noise"
       ],
       "matchManagers": ["custom.regex"],
-      "matchPackageNames": ["Kong/public-shared-actions/**"],
+      "matchPackageNames": ["pankajkongorg/pankaj-public-shared-actions/**"],
       "addLabels": ["ci/skip-test"],
       "prBodyTemplate": "{{{header}}}{{{table}}}{{{warnings}}}{{{notes}}}{{{changelogs}}}{{{controls}}}{{{footer}}}",
       "prFooter": "> Changelog: skip"
