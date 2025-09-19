@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
       - name: Send notification
-        uses: Kong/public-shared-actions/slack-actions/workflow-notification@v1
+        uses: Kong/public-shared-actions/slack-actions/workflow-notification@a18abf762d6e2444bcbfd20de70451ea1e3bc1b1 # v4.0.1
         with:
           slack-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL_NOTIFY_PUBLIC_SHARED_ACTIONS }}
           status: ${{ job.status }}
