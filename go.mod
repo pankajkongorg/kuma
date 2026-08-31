@@ -1,6 +1,6 @@
 module github.com/kumahq/kuma
 
-go 1.25.0
+go 1.26.5
 
 require (
 	cirello.io/pglock v1.16.1
@@ -8,7 +8,7 @@ require (
 	github.com/Masterminds/sprig/v3 v3.3.0
 	github.com/Nordix/simple-ipam v1.0.0
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
-	github.com/bakito/go-log-logr-adapter v0.0.3-0.20240527124623-de85860b7d21
+	github.com/bakito/go-log-logr-adapter v0.0.3-0.20260727213026-f0426b322018
 	github.com/cilium/ebpf v0.19.0
 	github.com/containernetworking/cni v1.3.0
 	github.com/containernetworking/plugins v1.8.0
@@ -19,7 +19,7 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v1.2.1
 	github.com/evanphx/json-patch/v5 v5.9.11
 	github.com/exaring/otelpgx v0.9.3
-	github.com/go-logr/logr v1.4.3
+	github.com/go-logr/logr v1.4.4
 	github.com/go-logr/zapr v1.3.0
 	github.com/goburrow/cache v0.1.4
 	github.com/golang-jwt/jwt/v5 v5.3.0
